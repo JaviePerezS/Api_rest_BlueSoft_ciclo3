@@ -16,13 +16,13 @@ public class Rest {
 
     @GetMapping("/profile")
     public String generarProfile(){
-        Profile miProfile = new Profile("159", "image.jpg", "3015874962", new Employee(), new Date(), new Date());
+        Profile miProfile = new Profile("01", "image.jpg", "3188701332", new Employee(), new Date(), new Date());
         return miProfile.toString();
     }
 
     @GetMapping("/employee")
     public String generarEmployee(){
-        Employee miEmployee = new Employee(789L, "ingjuanmasuarez@gmail.com", new Profile(), Enum_RolName.Admin, new Enterprise(), new ArrayList<Transaction>(), new Date(), new Date());
+        Employee miEmployee = new Employee(789L, "fjavier2411@gmail.com", new Profile(), Enum_RolName.Admin, new Enterprise(), new ArrayList<Transaction>(), new Date(), new Date());
         return miEmployee.toString();
     }
 
@@ -34,7 +34,7 @@ public class Rest {
 
     @GetMapping("/enterprise")
     public String generarEnterprise(){
-        Enterprise miEmpresa = new Enterprise(123L, "BlueSoft", "01500123", "3001234567", "Calle 123", new ArrayList<Employee>(), new ArrayList<Transaction>(), new Date(), new Date());
+        Enterprise miEmpresa = new Enterprise(123L, "BlueSoft", "01500123", "3188701332", "Calle 123", new ArrayList<Employee>(), new ArrayList<Transaction>(), new Date(), new Date());
         return miEmpresa.toString();
     }
 
