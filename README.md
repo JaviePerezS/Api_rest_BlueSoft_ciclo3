@@ -1,4 +1,6 @@
-Descripción del proyecto
+UDEA MISIONTIC CICLO 3 : DESARROLLO DE SOFTWARE
+
+DESCRIPCION DEL PROYECTO 
 
 Se requiere un aplicativo web para que un administrador pueda gestionar los
 ingresos y egresos de su empresa. El sistema debería permitir visualizar los
@@ -15,6 +17,4 @@ Adicionalmente, debido a que las transacciones contables son
 supremamente delicadas, el sistema debería permitir llevar una trazabilidad
 de quién registró cada transacción, por lo cual el sistema debe contar con un
 sistema de autenticación.
-
-Historias de usuario
 
