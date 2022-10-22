@@ -1,6 +1,10 @@
 package com.bluesoft.entity;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
 import com.bluesoft.enums.Enum_RolName;
 import org.springframework.beans.factory.annotation.Autowired;
 
